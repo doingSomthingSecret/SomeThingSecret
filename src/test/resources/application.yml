@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: test
+    username: test
+    password: test
+
+  jpa:
+    database: mysql
+    database-platform: org.hibernate.dialect.MariaDB106Dialect
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
